@@ -1,0 +1,39 @@
+.main__catalog{
+    margin-top: 40px;
+    display: flex ;
+}
+
+.main__catalog a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+}
+
+.main__catalog-item{
+    border: 2px solid rgb(86, 167, 163);
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 7px 10px rgb(149, 80, 158);
+}
+
+.main__catalog-item p{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main__catalog-item H3{
+    font-size: 23px;
+    color: rgb(67, 131, 77);
+    transition: color 1s, text-shadow 1s; 
+}
+
+.main__catalog-item h3:hover{
+    color: red; 
+    text-shadow: 5px 7px 20px rgb(212, 132, 223);
+}
+
+.main__catalog-item img{
+    margin-top: 30px;
+}
+
